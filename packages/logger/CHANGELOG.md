@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2020-03-19)
+
+
+### Bug Fixes
+
+* **logger:** convert message param to string ([b83908c](https://github.com/udhayakumar-amat/facetofacetestarea/commit/b83908c27778f0a4e83e5992905ea3e18e9c69a7))
+
+
 # 0.1.0 (2020-03-19)
 
 
