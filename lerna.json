@@ -3,11 +3,20 @@
     "version": "independent",
     "command": {
         "publish": {
-            "conventionalCommits": true
+            "yes": true,
+            "message": "chore(release): publish",
+            "allowBranch": ["master"],
+            "noCommitHooks": true,
+            "conventionalCommits": true,
+            "ignoreChanges": ["*.snap", "*.spec.ts", "*.md"]
         },
-        "version": {
-            "message": "chore(release): publish new versions",
-            "push": false
+        "bootstrap": {
+            "noCi": true,
+            "hoist": true
+        },
+        "clean": {
+            "yes": true
         }
-    }
+    },
+    "npmClientArgs": ["--no-package-lock"]
 }
