@@ -1,6 +1,10 @@
 export class Logger {
     constructor() {}
 
+    log(message) {
+        console.log(message);
+    }
+
     info(message) {
         console.info(message);
     }
