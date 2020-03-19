@@ -1,0 +1,15 @@
+{
+  "name": "facetofacetestarea",
+  "version": "1.0.0",
+  "description": "Testing repo for automate verion/release",
+  "dependencies": {
+    "lerna": "^3.20.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udhayakumar-amat/facetofacetestarea.git"
+  },
+  "scripts": {
+    "lerna:version": "lerna version --no-git-tag-version --yes"
+  }
+}
