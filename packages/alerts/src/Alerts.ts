@@ -4,4 +4,8 @@ export class Alerts {
     show(message) {
         alert(message.toString());
     }
+
+    confirm(message) {
+        return confirm(message.toString());
+    }
 }
