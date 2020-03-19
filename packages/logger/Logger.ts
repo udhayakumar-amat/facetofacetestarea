@@ -12,4 +12,8 @@ export class Logger {
     warning(message) {
         console.warn(message);
     }
+
+    clear() {
+        console.clear();
+    }
 }
