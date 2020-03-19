@@ -10,6 +10,6 @@
     "url": "https://github.com/udhayakumar-amat/facetofacetestarea.git"
   },
   "scripts": {
-    "lerna:version": "lerna version --no-git-tag-version --yes"
+    "lerna:version": "lerna version --conventional-commits --no-git-tag-version --no-push --yes"
   }
 }
